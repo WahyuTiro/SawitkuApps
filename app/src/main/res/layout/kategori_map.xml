@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/rd_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Petani" />
+
+    <RadioButton
+        android:id="@+id/rd_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_1"
+        android:text="Peneliti" />
+
+    <RadioButton
+        android:id="@+id/rd_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_2"
+        android:text="Praktisi" />
+
+    <RadioButton
+        android:id="@+id/rd_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd_3"
+        android:text="Distributor" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RG"
+        android:layout_centerInParent="true"
+        android:text="OK" />
+</RelativeLayout>

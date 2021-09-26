@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdbdb">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<TextView-->
+            <!--android:id="@+id/nama"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="#FFF"-->
+            <!--android:text="NAMA"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="24sp"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/gambar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/civil_war"/>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#4E4B4F" />-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="80dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<TextView-->
+                    <!--android:padding="5dp"-->
+                    <!--android:id="@+id/hargadiscount"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="HARGA"-->
+                    <!--android:textAlignment="center"/>-->
+
+                <!--<TextView-->
+                    <!--android:padding="5dp"-->
+                    <!--android:id="@+id/harga"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="HARGA"-->
+                    <!--android:textAlignment="center"/>-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <!--<View-->
+                <!--android:layout_width="1dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="#4E4B4F" />-->
+
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<RatingBar-->
+                    <!--android:padding="5dp"-->
+                    <!--android:id="@+id/rating_bar"-->
+                    <!--style="?android:attr/ratingBarStyleSmall"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:numStars="5"-->
+                    <!--android:rating="5"-->
+                    <!--android:stepSize="0.5" />-->
+
+                <!--<TextView-->
+                    <!--android:padding="5dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Stock : 35"/>-->
+
+
+                <!--<TextView-->
+                    <!--android:padding="5dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Garansi : 0 bulan"/>-->
+
+
+
+            <!--</LinearLayout>-->
+
+
+
+
+        <!--</LinearLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:background="#4E4B4F" />-->
+
+        <!--<TextView-->
+            <!--android:padding="5dp"-->
+            <!--android:text="Deskripsi"-->
+            <!--android:textStyle="bold"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/about"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>

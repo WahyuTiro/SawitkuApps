@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/fotoProfil"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profilepictures"/>
+
+<TextView
+    android:id="@+id/txtEditFoto"
+    android:text="edit"
+    android:textAlignment="center"
+    android:textColor="#007bff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_nama"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_email"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:id="@+id/android_material_design_spinner"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#05ab9a"
+        app:ms_hint="Tipe"
+        app:met_floatingLabel="normal" />
+
+
+    <Button android:id="@+id/btn_signup"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Lanjutkan"
+            android:onClick="Lanjutkan"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+
+
+
+</LinearLayout>
