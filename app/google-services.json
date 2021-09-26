@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "766039095085",
+    "firebase_url": "https://sawitku-632b9.firebaseio.com",
+    "project_id": "sawitku-632b9",
+    "storage_bucket": "sawitku-632b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766039095085:android:40707e8cef117048",
+        "android_client_info": {
+          "package_name": "com.sawitku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766039095085-to0ffedgmgq5g74pgjt6t3529rolaa1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sawitku",
+            "certificate_hash": "4824f1b3cb465c79aae73b2612d59f95502c25a3"
+          }
+        },
+        {
+          "client_id": "766039095085-4dc8i6mv0cllh8go6njf25ojtj7lg50a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAykIGCgFV13cbFh5spA7iLYs4F-EFtP9A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766039095085-4dc8i6mv0cllh8go6njf25ojtj7lg50a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
